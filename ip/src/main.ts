@@ -24,7 +24,6 @@ const rastrearIP = () => {
       fetch(`https://nominatim.openstreetmap.org/search?q=${data.location.region}&format=json`)
         .then((response) => response.json())
         .then((date) => {
-          console.log(date[0].lon);
           const map = new Map({
             target: "map",
             layers: [
