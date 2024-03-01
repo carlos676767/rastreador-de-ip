@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/leaflet": "^1.9.8",
+    "ol": "^9.0.0"
+  }
+}
